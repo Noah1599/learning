@@ -1,1 +1,5 @@
 print("hello there long time no see")
+print("\nI'm back, the day i came back is", "2025-02-024")
+print("\nThe goal is to be back in the game after a long time")
+print("\nI shall be good before august 2025")
+print("\nSigned noah15999")
