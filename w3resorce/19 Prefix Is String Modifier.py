@@ -4,7 +4,7 @@
 
 sentence=input("write your string : ")
 
-if sentence[0]=="I" and sentence[1]=="s":
+if sentence[:2].upper()=="IS":
     print(sentence)
 else:
-    
+    print("Is "+sentence)
