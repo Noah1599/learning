@@ -9,3 +9,5 @@ def cal():
     print(2+3+4)
 
 cProfile.run('cal')
+
+#this is used to profile functions meaning it shows how long the code takes to run to be able to uptimise
