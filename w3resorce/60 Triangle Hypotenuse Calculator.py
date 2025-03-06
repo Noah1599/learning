@@ -7,3 +7,4 @@ def triCal(a,b):
 triCal(2,5)
 triCal(12,5)
 triCal(7,23)
+#this is just simple 8th grade math
