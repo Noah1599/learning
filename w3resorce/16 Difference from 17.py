@@ -13,3 +13,4 @@ inputNum=int(input("write the number you want to find the diffrence from 17\n"))
 
 diffrence(inputNum)
 
+
