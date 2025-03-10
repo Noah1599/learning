@@ -55,6 +55,7 @@ class Solution:
         :type k: int
         :rtype: List[int]
         """
+        
         count = {}#Counter(nums)  # Dictionary storing frequency
 
         for num in nums:
@@ -71,6 +72,7 @@ class Solution:
                 result.append(num)
                 if len(result) == k:
                     return result
+        
 
 # Example usage
 
