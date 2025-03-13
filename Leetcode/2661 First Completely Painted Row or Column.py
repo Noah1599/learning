@@ -9,7 +9,14 @@ class Solution(object):
         """
         m, n = len(mat), len(mat[0])  
 
-        position = {mat[r][c]: (r, c) for r in range(m) for c in range(n)}
+        #position = {mat[r][c]: (r, c) for r in range(m) for c in range(n)}
+
+        position = {}
+        for r in range(m):
+            for c in range(n):
+                position[mat[r][c]] = (r, c)
+                
+
 
         row_count = [0] * m
         col_count = [0] * n
