@@ -5,4 +5,4 @@ print(len(mat))
 print(range(len(mat)))
 print(-1-1)
 
-print(int(5/2))
+print(int(3/2))
