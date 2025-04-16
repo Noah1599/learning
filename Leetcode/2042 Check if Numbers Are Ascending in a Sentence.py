@@ -3,7 +3,6 @@
 class Solution(object):
     def areNumbersAscending(self, s):
         s=s.split()
-        print(s)
         number=0
         for i in s:
             if i.isdigit():

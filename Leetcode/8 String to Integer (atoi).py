@@ -9,7 +9,7 @@ class Solution(object):
         s = s.lstrip()
         oF = ""
         nums = ""
-
+#      -00000312
         if s and s[0] in "-+":
             oF = s[0]
             s = s[1:]
@@ -21,7 +21,7 @@ class Solution(object):
             else: break
 
         if not nums: return 0
-        num = int(oF + nums)
+        num = int(oF + nums) #inf
 
         if num < -2147483648: num = -2147483648
         elif num > 2147483647: num = 2147483647
